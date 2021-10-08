@@ -4,7 +4,7 @@ This project was created for educational purposes and should not be used in envi
 
 Description: 
 
-Simple Command Injection Scanner for Web Applications with the intent of automatic testing.
+Simple OS Command Injection Scanner for Web Applications with the intent of automatic testing.
 
 Git Clone:
   
