@@ -25,7 +25,7 @@ def scan_cmd(payload,url):
         if len(tainted_params) > 0:
                 attack_url = urlsplit(url).geturl() + urlencode(tainted_params)
                 resp = requests.post(url=attack_url, data = payload)
-                print(resp.text)
+                #print(resp.text)
                 if resp.status_code == 200:
                         if poc in resp.text:
                                 attack_encode=html.escape(attack_url)
