@@ -22,4 +22,4 @@ Arguments:
 Usage:
 
 
-     python3 ci.py -url "http://172.16.22.167/commix-testbed/scenarios/regular/GET/classic.php?addr=1"
+     python3 command_injection.py -url "http://172.16.22.167/commix-testbed/scenarios/regular/GET/classic.php?addr=1"
